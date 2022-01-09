@@ -21,8 +21,6 @@ elif(os.lower()=="windows"):
     host_path="c:\windows\system32\drivers\etc\hosts"
 else:
     messagebox.showerror("Error","Operating System Error")
-def contact():
-    webbrowser.open("https://github.com/cmanjunathan45/")
 def Block():
     try:
         if(len(websites.get())==1):
